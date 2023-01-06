@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common Codes  */
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.primary-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+/* Header Section's Styles are Here  */
+
+header {
+  height: 100vh;
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 130px;
+}
+
+header .header-content {
+  width: 600px;
+  margin: 0 0 0 auto;
+  padding: 165px 200px 0 0;
+  text-align: right;
+}
+
+header .header-content .title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+header .header-content .desc {
+  color: #444343;
+  margin-bottom: 20px;
+}
+
+header .header-content .primary-btn {
+  background: #f15b22;
+}
+
+/* ---------------------------------- */
+
+/* My Failures Section's Styles */
+
+main .my-failures {
+  margin: 0 300px 130x 200px;
+  display: flex;
+  text-align: center;
+}
+main .my-failures .image {
+  margin-left: 100px;
+}
+
+main .my-failures .details {
+  margin: 280px 100px 200px 90px;
+  width: 410px;
+  text-align: left;
+}
+
+.my-failures .details .title {
+  margin-bottom: 17px;
+}
+
+.my-failures .details .desc {
+  margin-bottom: 15px;
+}
+
+.my-failures .details ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.my-failures .details ul li i {
+  color: #16d887;
+}
+
+/* --------------------------------- */
+
+/* My Plans Section's Styles */
+
+.my-plans .title {
+  text-align: center;
+}
+
+.my-plans .plans {
+  margin: 55px 230px 130px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.my-plans .plans .sub-title {
+  margin: 15px 0;
+}
+
+/* --------------------------- */
+
+main .advice {
+  margin: 0 230px 130px;
+  /* height: 300px; */
+  background-image: url("../images/watch.png"), url("../images/gradient2.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+main .advice .title {
+  padding: 50px 0 0 60px;
+  color: white;
+  font-weight: 700;
+}
+
+main .advice .primary-btn {
+  color: #f15b22;
+  margin: 20px 0 60px 60px;
+}
+
+/* Footer Section's Styles */
+
+footer .future {
+  display: flex;
+  padding: 130px 200px 100px;
+  background: #151414;
+}
+
+.future .contact-info {
+  width: 485px;
+  height: 317px;
+  margin-right: 300px;
+}
+
+.future .contact-info .title {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.future .contact-info .desc {
+  color: #d3d0d0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.future .contact-info .icons {
+  margin-top: 30px;
+}
+
+.future .contact-info .icons img {
+  margin-right: 15px;
+}
+
+.future .message-box .title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.future .message-box input {
+  width: 275px;
+  padding: 25px 20px;
+  background-color: #151414;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.future .message-box .primary-btn {
+  color: #f15b22;
+}
