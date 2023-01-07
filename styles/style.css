@@ -64,16 +64,13 @@ header .header-content .primary-btn {
 /* My Failures Section's Styles */
 
 main .my-failures {
-  margin: 0 300px 130x 200px;
+  margin: 0 200px 130px 100px;
   display: flex;
-  text-align: center;
-}
-main .my-failures .image {
-  margin-left: 100px;
+  gap: 90px;
 }
 
 main .my-failures .details {
-  margin: 280px 100px 200px 90px;
+  margin: 280px 0 0 0;
   width: 410px;
   text-align: left;
 }
@@ -96,6 +93,29 @@ main .my-failures .details {
 }
 
 /* --------------------------------- */
+
+/* Extra Section's Styles */
+
+section.extra-part {
+  display: flex;
+  gap: 100px;
+  margin: 0 100px 130px 200px;
+  text-align: center;
+}
+section.extra-part .content {
+  width: 440px;
+}
+section.extra-part .image img {
+  height: 400px;
+  width: 500px;
+}
+section.extra-part .title {
+  margin: 50px 0 30px;
+  font-weight: 900;
+}
+section.extra-part .content .desc {
+  text-align: justify;
+}
 
 /* My Plans Section's Styles */
 
